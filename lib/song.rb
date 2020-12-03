@@ -16,7 +16,7 @@ class Song
     @@all << self
   end
   
-  def self.new_by_filename(filename)
+  def self.create(filename)
   song = self.new(name)
   song.save
   return song
